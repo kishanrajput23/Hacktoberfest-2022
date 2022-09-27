@@ -8,32 +8,32 @@ The IT industry in India consisting of two major components:
 <br><br>**1. Bangalore – The Silicon Valley of India**<br><br>
 ![BangaloreCity](https://i.postimg.cc/DZj8vLnT/resize-16642899771652593556-Bangalore.jpg)
 
-&emsp;&ensp;Bangalore, also known as The Silicon Valley of India, is the IT Capital of India and a global information technology hub. It houses the biggest Indian IT giants like Infosys, TCS, HCL, Tech Mahindra. Not just that, it has offices of some of the leading IT companies across the world like Dell, HP, Accenture, Cognizant, Apple, Intel, Capgemini, to name a few.  
+Bangalore, also known as The Silicon Valley of India, is the IT Capital of India and a global information technology hub. It houses the biggest Indian IT giants like Infosys, TCS, HCL, Tech Mahindra. Not just that, it has offices of some of the leading IT companies across the world like Dell, HP, Accenture, Cognizant, Apple, Intel, Capgemini, to name a few.  
 
-&emsp;&ensp;A LinkedIn study revealed that Bengaluru is the highest paying city in India with the average salary for high profile software jobs being 12 LPA. What more can a techie want? Best companies, best infrastructure, and the best pay, Bangalore serves it all.  
+A LinkedIn study revealed that Bengaluru is the highest paying city in India with the average salary for high profile software jobs being 12 LPA. What more can a techie want? Best companies, best infrastructure, and the best pay, Bangalore serves it all.  
 
 **2. Hyderabad – The Cyberabad**<br><br>
 ![Hyderabad](https://i.postimg.cc/zftYcjqT/resize-16642901611992098808image.jpg)
 
-&emsp;&ensp;Hyderabad also known as the HITECH City, the second largest IT exporter in India and the first destination in India for the Microsoft, Amazon like development center. With a lower cost of living, better air and water quality, rich cultural heritage coupled with fast-pacing technological advancement, Hyderabad manages to even defeat Bangalore in many aspects.  
+Hyderabad also known as the HITECH City, the second largest IT exporter in India and the first destination in India for the Microsoft, Amazon like development center. With a lower cost of living, better air and water quality, rich cultural heritage coupled with fast-pacing technological advancement, Hyderabad manages to even defeat Bangalore in many aspects.  
 
 **3. Chennai – IT Infrastructures**<br><br>
 ![Chennai](https://orelpc.com/img/image-23.png)
 
-&emsp;&ensp;Chennai city has a world class IT infrastructures and fast emerging as a destination for information technology outsourcing in India. The south Indian city of Chennai has dedicated expressway called as IT expressways and a favoured location for IT industries.
+Chennai city has a world class IT infrastructures and fast emerging as a destination for information technology outsourcing in India. The south Indian city of Chennai has dedicated expressway called as IT expressways and a favoured location for IT industries.
 
 **4. NCR – Delhi Noida and Gurgaon**<br><br>
 ![NCR](https://i.postimg.cc/4Ncg8VKS/resize-1664290456488888895image.jpg)
 
-&emsp;&ensp;The National Capital Region of Delhi, Gurgaon and Noida are home to many multinational corporation companies. Giant software development companies of NCR region are Infosys, Oracle, HCL Technologies, Cognizant, MphasiS, Accenture,ThoughtWorks etc.
+The National Capital Region of Delhi, Gurgaon and Noida are home to many multinational corporation companies. Giant software development companies of NCR region are Infosys, Oracle, HCL Technologies, Cognizant, MphasiS, Accenture,ThoughtWorks etc.
 
 **5. Pune – IT Parks**<br><br>
 
 ![Pune](https://i.postimg.cc/gkv6CMn9/resize-16642907291692618844image.jpg)
 
-&emsp;&ensp;Pune is home to biggest IT park of India called as Rajiv Gandhi IT Park at Hinjewadi. The city is one of the leading IT services center in India with list of many dedicated IT parks such as EON Free zone, Magarpatta, Hinjewadi, Aundh IT park, commerzone and Business Bay.<br><br><br>
+Pune is home to biggest IT park of India called as Rajiv Gandhi IT Park at Hinjewadi. The city is one of the leading IT services center in India with list of many dedicated IT parks such as EON Free zone, Magarpatta, Hinjewadi, Aundh IT park, commerzone and Business Bay.<br><br><br>
 And, Here's a sneak peek into the future!
 
 **Gujarat International Finance Tec-City – GIFT City:**
 
-&emsp;&ensp;GIFT City is an under construction project located between Ahmedabad and Gandhinagar. The city will have techno park, special economic zone,convention center and Software Technology Parks for leading IT companies.
+GIFT City is an under construction project located between Ahmedabad and Gandhinagar. The city will have techno park, special economic zone,convention center and Software Technology Parks for leading IT companies.
