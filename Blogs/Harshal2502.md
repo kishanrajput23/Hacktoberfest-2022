@@ -6,30 +6,30 @@ The IT industry in India consisting of two major components:
 
 &emsp;&ensp;IT industry is one of the fastest growing industries in the country. The sector has increased its contribution to India's GDP from 1.2% in 1998 to 7.7% in 2017. The export revenue of the sector standing at 99 billion USD in 2019. As of 2020, India's IT workforce accounts for 4.36 million employees. Now let's get straight into the list
 <br><br>**1. Bangalore – The Silicon Valley of India**<br><br>
-![BangaloreCity](https://github.com/Harshal2502/Hacktoberfest-2022/blob/BlogBranch/Blogs/b'lore.jpg?raw=true)
+![BangaloreCity](https://github.com/Harshal2502/temp-repo/blob/master/src/b'lore.jpg?raw=true)
 
 Bangalore, also known as The Silicon Valley of India, is the IT Capital of India and a global information technology hub. It houses the biggest Indian IT giants like Infosys, TCS, HCL, Tech Mahindra. Not just that, it has offices of some of the leading IT companies across the world like Dell, HP, Accenture, Cognizant, Apple, Intel, Capgemini, to name a few.  
 
 A LinkedIn study revealed that Bengaluru is the highest paying city in India with the average salary for high profile software jobs being 12 LPA. What more can a techie want? Best companies, best infrastructure, and the best pay, Bangalore serves it all.  
 
 **2. Hyderabad – The Cyberabad**<br><br>
-![Hyderabad](https://github.com/Harshal2502/Hacktoberfest-2022/blob/BlogBranch/Blogs/hyd.jpg?raw=true)
+![Hyderabad](https://github.com/Harshal2502/temp-repo/blob/master/src/hyd.jpg?raw=true)
 
 Hyderabad also known as the HITECH City, the second largest IT exporter in India and the first destination in India for the Microsoft, Amazon like development center. With a lower cost of living, better air and water quality, rich cultural heritage coupled with fast-pacing technological advancement, Hyderabad manages to even defeat Bangalore in many aspects.  
 
 **3. Chennai – IT Infrastructures**<br><br>
-![Chennai](https://github.com/Harshal2502/Hacktoberfest-2022/blob/BlogBranch/Blogs/Chennai.png?raw=true)
+![Chennai](https://raw.githubusercontent.com/Harshal2502/temp-repo/master/src/Chennai.png?token=GHSAT0AAAAAABXP3RB4T7GNLTFIHW3PPFKKYZUPK6A)
 
 Chennai city has a world class IT infrastructures and fast emerging as a destination for information technology outsourcing in India. The south Indian city of Chennai has dedicated expressway called as IT expressways and a favoured location for IT industries.
 
 **4. NCR – Delhi Noida and Gurgaon**<br><br>
-![NCR](https://github.com/Harshal2502/Hacktoberfest-2022/blob/BlogBranch/Blogs/NCR.jpg?raw=true)
+![NCR](https://github.com/Harshal2502/temp-repo/blob/master/src/NCR.jpg?raw=true)
 
 The National Capital Region of Delhi, Gurgaon and Noida are home to many multinational corporation companies. Giant software development companies of NCR region are Infosys, Oracle, HCL Technologies, Cognizant, MphasiS, Accenture,ThoughtWorks etc.
 
 **5. Pune – IT Parks**<br><br>
 
-![Pune](https://github.com/Harshal2502/Hacktoberfest-2022/blob/BlogBranch/Blogs/Pune.jpg?raw=true)
+![Pune](https://github.com/Harshal2502/temp-repo/blob/master/src/Pune.jpg?raw=true)
 
 Pune is home to biggest IT park of India called as Rajiv Gandhi IT Park at Hinjewadi. The city is one of the leading IT services center in India with list of many dedicated IT parks such as EON Free zone, Magarpatta, Hinjewadi, Aundh IT park, commerzone and Business Bay.<br><br><br>
 And, Here's a sneak peek into the future!
