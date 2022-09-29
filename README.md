@@ -29,6 +29,17 @@ To qualify for the __official limited edition Hacktoberfest shirt__, you must re
 
 ## Steps to follow :scroll:
 
+### Tip : Complete this process in GitHub (in your browser)
+
+```mermaid
+flowchart LR
+    Fork[Fork the project]-->branch[Create a New Branch]
+    branch-->Edit[Edit file]
+    Edit-->commit[Commit the changes]
+    commit -->|Finally|creatpr((Create a Pull Request))
+    
+ ```
+
 ### 0. Star The Repo :star2:
 
 Star the repo by pressing the topmost-right button to start your wonderful journey.
