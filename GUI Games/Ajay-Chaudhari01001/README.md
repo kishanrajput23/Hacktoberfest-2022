@@ -1,7 +1,7 @@
 ### Guessing Number Game 
 Guessing number game randome number generate between 1 to 100
 
-## Deploy Project Link
+### Deploy Project Link
   [Guessing Number Game](https://guesswithjs.netlify.app) 
 ### 1 Select the game level
 <img width="529" alt="Screenshot 2022-08-23 065845" src="https://user-images.githubusercontent.com/55138445/187009217-0aaf2986-a9d9-48e3-9e18-bd0be2ee16a6.png">
