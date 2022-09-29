@@ -25,13 +25,13 @@ A month-long celebration from October 1st to October 31st presented by [Digital 
 [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
 
 ## Rules :fire:
-To qualify for the __official limited edition Hacktoberfest shirt__, you must register [here](https://hacktoberfest.digitalocean.com/) and make four Pull Requests (PRs) between October 1-31, 2022 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. This year, the __first 40,000__ participants who complete the challenge will earn a T-shirt.
+To qualify for the __official limited edition Hacktoberfest shirt__, you must register [here](https://hacktoberfest.digitalocean.com/) and make four Pull Requests (PRs) between October 1-31, 2022 (in any time zone). PRs can be made to any public repository on GitHub, not only the ones with issues labeled Hacktoberfest. This year, the __first 40,000__ participants who complete the challenge will earn a T-shirt.
 
 ## Steps to follow :scroll:
 
-### 0. Star The Repo :star2:
+### 0. Star The Repository :star2:
 
-Star the repo by pressing the topmost-right button to start your wonderful journey.
+Star the repository by pressing the topmost-right button to start your wonderful journey.
 
 ### 1. Fork it :fork_and_knife:
 
