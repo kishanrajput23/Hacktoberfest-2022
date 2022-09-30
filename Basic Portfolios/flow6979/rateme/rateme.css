@@ -1,0 +1,80 @@
+
+body{
+  margin:0;
+  padding:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: arial;
+  background-color: black;
+}
+.box{
+  width:600px;
+}
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color:#B13BF5;
+}
+.rating{
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #D0B6DF, #B13BF5, #6B01A8);
+}
+.rating input{
+  display: none;
+}
+.rating label{
+  display: block;
+  cursor: pointer;
+  width: 60px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  border-right: 1px solid #000;
+}
+.rating input[type="radio"]:hover ~ label,
+.rating input[type="radio"]:checked ~ label
+{
+  background: transparent;
+}
+
+
+
+
+/* button */
+.right{
+  position: relative;
+  margin-top: 250px;
+}
+
+.right form .button-area button{
+  color: #fff;
+  display: block;
+  width: 110px!important;
+  height: 50px;
+  outline: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 7px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: #B13BF5 ;
+  border: 3px solid #B13BF5 ;
+  transition: all 0.3s ease;
+}
+.right form .button-area button:hover{
+  color: #B13BF5 ;
+  background: none;
+}
