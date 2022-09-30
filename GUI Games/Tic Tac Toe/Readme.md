@@ -1,5 +1,6 @@
-<hr>
+
 <h1 style="font-family:Helvetic,sans-serif">Tic Tac Toe</h1>
+
 
 <h2 style="font-family:Helvetic,sans-serif">Description</h2>
 <p style="font-family:sans-serif">
@@ -11,6 +12,9 @@ It is a simple game of Tic Tac Toe. The game is played between two players. The 
 <img src="Tic Tac Toe.gif"></img>
 
 <h1>Contributors</h1>
-![blue](https://img.shields.io/badge/Contributor-1-blue)
-![](https://img.shields.io/badge/Contributor-2-blue)
-<hr>
+<ul bullets="circle">
+  <li><a href="https://github.com/Sanjeev-Kumar78">Sanjeev-Kumar78</a></li>
+  <li><a href="#link">__________________</a></li> <!--Other Contributors format-->
+  
+
+</ul>
