@@ -1,0 +1,25 @@
+body{
+   background-color: black;
+    margin: 0;
+    width: 100%;
+}
+img{
+    width:300px;
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: rocket 3s ease-in;
+    animation-iteration-count: 1;
+}
+@keyframes rocket{
+    0%{
+        transform:translate(-50%,0);
+    }
+    100%{
+        transform:translate(-50%,-100vh);
+    }
+}
+img:hover{
+    animation-play-state: paused;
+}
