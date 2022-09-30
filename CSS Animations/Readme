@@ -1,0 +1,181 @@
+Animations in web design are often used to drive the user’s focus to a specific section. One section  you want to make sure to highlight is the main tagline, with the action buttons. A good use of typography and a wise choice of colors should do the trick. However we decided to spice things up a little by creating some text effects that you can easily apply to the intro section of your web projects
+
+Creating the structure
+
+The HTML structure for each effect is pretty simple: a section.cd-intro is used as a container for the div.cd-intro-content which wraps the main tagline.
+
+The structure for the main tagline slightly differs from one effect to the other: for the bouncy effect, for example, we used an <h1> for the page title, a <p> tag as tagline, and a div.action-wrapper to wrap the action buttons:
+<section class="cd-intro">
+
+   <div class="cd-intro-content bouncy">
+
+      <h1>Animated Intro Section</h1>
+
+      <p>A collection of text effects for the intro section of your website</p>
+
+      <div class="action-wrapper">
+
+         <a href="#0" class="cd-btn main-action">Get started</a>
+
+         <a href="#0" class="cd-btn">Learn More</a>
+
+      </div>
+
+   </div>
+
+</section>
+
+The .bouncy class added to the .cd-into-content is used to trigger the animation.
+
+Adding style
+
+By default, we hide the intro content by setting its opacity to zero, then we animate it using CSS Animations.
+
+For the bouncy effect, for example, we created 3 different animations for the <h1>, <p> and .cd-btn buttons:
+.cd-intro-content h1,
+
+.cd-intro-content p,
+
+.cd-intro-content .cd-btn {
+
+  opacity: 0;
+
+  animation-delay: 0.3s;
+
+  animation-fill-mode: forwards;
+
+}
+
+.bouncy.cd-intro-content h1 {
+
+  animation-name: cd-bounce-right;
+
+}
+
+.bouncy.cd-intro-content p {
+
+  animation-name: cd-bounce-left;
+
+}
+
+.bouncy.cd-intro-content h1,
+
+.bouncy.cd-intro-content p {
+
+  animation-duration: 0.6s;
+
+}
+
+.bouncy.cd-intro-content .cd-btn {
+
+  animation-name: cd-bounce-rotate;
+
+  animation-duration: 0.5s;
+
+}
+
+.bouncy.cd-intro-content .cd-btn.main-action {
+
+  animation-delay: 0.4s;
+
+}
+
+@keyframes cd-bounce-right {
+
+  0% {
+
+    opacity: .2;
+
+    transform: translateX(-200px);
+
+  }
+
+  60% {
+
+    opacity: .7;
+
+    transform: translateX(15px);
+
+  }
+
+  100% {
+
+    opacity: 1;
+
+    transform: translateX(0);
+
+  }
+
+}
+
+@keyframes cd-bounce-left {
+
+  0% {
+
+    opacity: .2;
+
+    transform: translateX(200px);
+
+  }
+
+  60% {
+
+    opacity: .7;
+
+    transform: translateX(-15px);
+
+  }
+
+  100% {
+
+    opacity: 1;
+
+    transform: translateX(0);
+
+  }
+
+}
+
+@keyframes cd-bounce-rotate {
+
+  0% {
+
+    opacity: .2;
+
+    transform: perspective(800px) rotateX(-80deg);
+
+  }
+
+  20% {
+
+    opacity: 1;
+
+  }
+
+  60% {
+
+    transform: perspective(800px) rotateX(20deg);
+
+  }
+
+  100% {
+
+    opacity: 1;
+
+    transform: perspective(800px) rotateX(0);
+
+  }
+
+}
+
+Let's take a look at the video effect now: if you open the video.html file, you can see that an additional div.cd-bg-video-wrapper has been inserted; this element is used to wrap the background video (you won't see any <video> element inside the HTML because it's loaded using Javascript - more in the 'Events Handling' section).
+
+Besides, we inserted two svg elements (.svg-mask and .svg-mask-mobile) inside the <h1>: these svgs are used to create the title transparency effect (the first one when the device width is bigger than 768px, the second for the other devices).
+
+
+
+Basically, the idea is: we create an opaque rectangular <path> element but then we add a transparent area in the shape of the page title (in our demo, 'Video Effect').
+
+The svg is then used as a layer to cover the entire .cd-intro-content: the transparent area of the svg lets you see what's below it (the background video).
+
+You can create a svg mask simply by using a vector graphic editor. We used Adobe Illustrator, where we created a rectangle and then removed the text using the pathfinder tool.
