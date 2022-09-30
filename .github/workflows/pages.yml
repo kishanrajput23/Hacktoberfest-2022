@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: 'GUI Games/Tic Tac Toe/'
+          path: 'GUI Games/Tic Tac Toe/index.html'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
