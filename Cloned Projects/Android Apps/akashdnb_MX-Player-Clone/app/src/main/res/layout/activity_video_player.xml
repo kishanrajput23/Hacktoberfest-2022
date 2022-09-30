@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LIGHT_DARK_COLOR"
+    tools:context=".VideoPlayerActivity">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/exoPlayer_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:hide_on_touch="true"
+        app:resize_mode="fit"
+        android:background="#000000"
+        app:player_layout_id="@layout/exo_player_view"
+        app:fastforward_increment="10000"
+        app:rewind_increment="10000"
+        app:shutter_background_color="#000000"
+        app:use_controller="true"
+        app:show_timeout="4000"
+        app:surface_type="surface_view"
+        app:controller_layout_id="@layout/custom_playback_view"
+        >
+    </com.google.android.exoplayer2.ui.PlayerView>
+
+    <View
+        android:id="@+id/night_mde"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/LIGHT_DARK_COLOR"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/s_bar"
+        layout="@layout/control_bar"
+        android:visibility="gone"
+        android:layout_marginLeft="30dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <include
+        android:id="@+id/s_bar_brightness"
+        layout="@layout/control_bar"
+        android:visibility="gone"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+</RelativeLayout>

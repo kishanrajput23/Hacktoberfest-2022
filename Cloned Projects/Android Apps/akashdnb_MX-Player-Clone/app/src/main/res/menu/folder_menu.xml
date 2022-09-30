@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/rate_us"
+        android:title="Rate Us"
+        android:icon="@drawable/ic_round_star_rate_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/share_app"
+        android:title="Share App"
+        app:showAsAction="never"/>
+</menu>
