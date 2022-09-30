@@ -1,3 +1,4 @@
+
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/Sanjeev-Kumar78/Hacktoberfest-2022)
 <h1 style="font-family:Helvetic,sans-serif">Tic Tac Toe</h1>
 
@@ -9,7 +10,8 @@ It is a simple game of Tic Tac Toe. The game is played between two players. The 
 </p>
 
 <h2 style="font-family:Helvetic,sans-serif">User Interface</h2>
-<img src="Tic Tac Toe.gif"></img>
+<img align = "center" src="Tic Tac Toe.gif"></img>
+
 
 <h1>Contributors</h1>
 <ul bullets="circle">
