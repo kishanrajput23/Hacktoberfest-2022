@@ -1,0 +1,81 @@
+
+.animation-example {
+  font-size: 24px;
+  border: 2px dotted #aaa;
+  background: #fff;
+  width: 95vmin;
+  height: 95vmin;
+  position: absolute;
+    top: calc(50% - 47.5vmin);
+    left: calc(50% - 47.5vmin);
+}
+
+.hammer {
+  animation: hammer-pull 3s cubic-bezier(.8,.01,.2,1) infinite;
+  transform-origin: 50% 10%;
+}
+
+.nail {
+  animation: nail-pull 3s cubic-bezier(.8,.01,.2,1) infinite;
+}
+
+@media (min-width: 650px) {
+  .hammer {
+    animation: hammer-hit 3s cubic-bezier(.8,.01,.2,1) infinite;
+    transform-origin: 50% 100%;
+  }
+
+  .nail {
+    animation: nail-hit 3s linear infinite;
+  }
+}
+
+
+@keyframes hammer-pull {
+  0%, 60% {
+    transform: translateY(25%) translateX(-110%) rotateZ(-108deg);
+  }
+  60%, 90% {
+    transform: translateY(25%) translateX(-110%) rotateZ(-100deg);
+  }
+  100% {
+    transform: translateY(25%) translateX(-110%) rotateZ(-108deg);
+  }
+}
+
+@keyframes nail-pull {
+  0%, 60% {
+    transform: translateX(-42%);
+  }
+  60%, 90% {
+    transform: translateX(-28%);
+  }
+  100% {
+    transform: translateX(-42%);
+  }
+}
+
+@keyframes hammer-hit {
+  0% {
+    transform: rotateZ(-10deg);
+  }
+  70%, 90% {
+    transform: rotateZ(22deg);
+  }
+  100% {
+    transform: rotateZ(-10deg);
+  }
+}
+
+@keyframes nail-hit {
+  0% {
+    transform: translateX(-8%);
+  }
+  40%, 98% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-8%);
+  }
+}
+

@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Responsive animations - Responsive SVG: Level up your CSS animation skills</title>
+    <!-- The default layout, resets and and text styling -->
+    <link href="stylesheets/main.css" rel="stylesheet">
+    <!-- Custom styling -->
+    <link href="stylesheets/hammer.css" rel="stylesheet">
+  </head>
+  <body>
+    <section class="animation-example">
+      <svg width="100%" height="100%" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #493907;">
+        <defs>
+          <linearGradient x1="13.2978836%" y1="61.977838%" x2="86.4944858%" y2="61.977838%" id="linearGradient-1">
+            <stop stop-color="#E9E9E9" offset="0%"></stop>
+            <stop stop-color="#EEEEEE" offset="32.8384088%"></stop>
+            <stop stop-color="#DADADA" offset="100%"></stop>
+          </linearGradient>
+          <rect id="path-2" x="0" y="0" width="26" height="10"></rect>
+          <rect id="path-3" x="10" y="10" width="6" height="33"></rect>
+          <rect id="path-4" x="0" y="0" width="300" height="50"></rect>
+          <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#4E4E4E" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+          </linearGradient>
+          <polygon id="path-7" points="35.9847706 38.4402516 54.3203032 38.4402516 58.9046207 189.798742 31.2857389 189.798742"></polygon>
+          <linearGradient x1="50%" y1="23.955676%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#E1E1E1" offset="0%"></stop>
+            <stop stop-color="#EEEEEE" offset="23.955676%"></stop>
+            <stop stop-color="#C4C4C4" offset="100%"></stop>
+          </linearGradient>
+          <path d="M1.60376729,6.00628931 C3.68841396,-9.01999189 12.4825243,8.6714205 20.1597192,14.6115892 C27.8369141,20.5517578 24.8404324,8.43493005 28.9777375,7.92871247 C37.8730469,6.84033203 53.7363281,7.25537109 60.9641142,9.30652239 C69.6661204,11.7760381 82.0009766,14.1020508 92.8828125,30.4394531 C103.764648,46.7768555 83.7329102,20.7397461 71.7672453,24.2125605 C63.7901354,26.5277701 60.3123241,31.6707531 61.3338113,39.6415094 L28.9777375,39.6415094 C26.4489594,34.2415057 23.5096199,32.655861 20.1597192,34.8845752 C15.134868,38.2276465 3.6760495,56.8157429 1.60376729,39.6415094 C-0.468514926,22.4672759 -0.480879379,21.0325705 1.60376729,6.00628931 Z" id="path-10"></path>
+        </defs>
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g class="nail">
+              <g transform="translate(70.000000, 52.500000) rotate(-270.000000) translate(-70.000000, -52.500000) translate(57.000000, 31.000000)">
+              <g>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#E8E8E8" stroke-width="1" x="0.5" y="0.5" width="25" height="9"></rect>
+              </g>
+              <g>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#DBDBDB" stroke-width="1" x="10.5" y="10.5" width="5" height="32"></rect>
+              </g>
+            </g>
+          </g>
+          <g class="wall">
+            <g transform="translate(25.000000, 150.000000) rotate(-270.000000) translate(-25.000000, -150.000000) translate(-125.000000, 125.000000)">
+              <mask id="mask-5" fill="white">
+                <use xlink:href="#path-4"></use>
+              </mask>
+              <use id="wood" fill="#B6860F" xlink:href="#path-4"></use>
+            </g>
+          </g>
+          <g class="hammer">
+            <g transform="translate(117.000000, 29.000000)">
+              <polygon id="shadow" fill="url(#linearGradient-6)" opacity="0.30004529" points="37.0351562 38.4402516 53.5136719 38.4402516 58.9240506 189.798742 31.2658228 189.798742"></polygon>
+              <mask id="mask-8" fill="white">
+                <use xlink:href="#path-7"></use>
+              </mask>
+              <use id="handle" fill="#B6860F" xlink:href="#path-7"></use>
+              <g id="Rectangle-2">
+                <use fill="url(#linearGradient-9)" fill-rule="evenodd" xlink:href="#path-10"></use>
+                <path stroke="#D1D1D1" stroke-width="1" d="M29.2935414,39.1415094 L60.7725257,39.1415094 C59.9545046,31.240982 63.6062252,26.0605138 71.6278805,23.7323757 C74.0598416,23.0265437 76.8927356,23.4260871 80.0779627,24.7488082 C82.6123323,25.8012494 85.2815113,27.394319 88.1768171,29.4759974 C89.8066219,30.6478009 93.5028208,33.5860559 95.0444273,34.7671677 C94.5718197,33.9336851 93.7442759,32.6347558 92.4666726,30.716631 C89.538898,26.321028 86.3891663,22.768885 82.9973317,19.9205593 C79.4164782,16.9135032 75.6496376,14.743871 71.4244227,13.0711644 C69.7400189,12.4043313 68.0188729,11.8276501 66.0283212,11.2419308 C64.8516091,10.8956835 60.8868311,9.80451275 61.0945179,9.86292589 C60.9607237,9.82524352 60.9607237,9.82524352 60.8276109,9.78752849 C54.0355314,7.860025 38.4337793,7.27545269 29.0384618,8.42501133 C27.9928542,8.55294604 27.4994621,9.50554489 26.8153542,12.2025413 C26.7976139,12.2725073 26.7976139,12.2725073 26.7798548,12.3425802 C26.1809793,14.7051833 25.821296,15.6259909 24.9706737,16.281454 C23.7944713,17.1877989 22.1524656,16.7856548 19.8537442,15.0070374 C18.8110592,14.2002682 17.707027,13.1537199 16.4619785,11.8209758 C15.6222799,10.9221327 14.7809671,9.96513519 13.6035901,8.58577621 C8.79847637,2.95633337 7.70796601,1.79910086 6.01235711,0.938043903 C4.00986807,-0.0788516336 2.77288115,1.21778714 2.09902391,6.07499793 C0.0264347336,21.0143679 0.0269230524,22.3994112 2.10016671,39.5816127 C2.65085896,44.1455264 3.85382108,46.1965278 5.54871187,46.3171798 C7.01728629,46.4217213 8.98401749,45.1939218 11.5553042,42.7352865 C12.2870348,42.0356139 13.0492977,41.2577154 13.9888462,40.262493 C13.8157777,40.4458169 16.4955588,37.5775746 17.1708137,36.885336 C18.3064449,35.7211421 19.1587505,34.9499787 19.8827609,34.4682891 C23.4768694,32.0771017 26.6765924,33.7286577 29.2935414,39.1415094 Z"></path>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </section>
+  </body>
+</html>
