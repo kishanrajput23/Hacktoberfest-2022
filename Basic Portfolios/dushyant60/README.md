@@ -1,5 +1,2 @@
-Name : Dushyant Singh
-School/College : Galgotias University
-GitHub Username : dushyant60
-GitHub Profile URL : https://github.com/dushyant60
-Tech Stack : HTML, CSS, BootStrap.
+# First_Basic_Portfolio
+Its an Portfolio Website and easy to build.
