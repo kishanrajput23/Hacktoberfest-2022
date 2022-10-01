@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e8df42b7ae.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Our CSS -->
+    <link rel="styleSheet" href="style.css" />
+    <title>Tasky</title>
+</head>
+
+<body onload="loadInitialCardData()" > <!-- calling_local_storage_ata_function -->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add New Tasks </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="imageurl" class="form-label">Image Url</label>
+                        <input type="url" class="form-control" id="imageUrl" placeholder="https://xyz.image.com/shdbejd.jpg">
+                    </div>
+                    <div class="mb-3">
+                        <label for="tasktitle" class="form-label"> Task title </label>
+                        <input type="text" class="form-control" id="taskTitle" placeholder="integrating API">
+                      </div><div class="mb-3">
+                        <label for="tasktype" class="form-label">Task type</label>
+                        <input type="text" class="form-control" id="taskType" placeholder="development">
+                      </div><div class="mb-3">
+                        <label for="taskdescription" class="form-label">Task description</label>
+                       <textarea  rows="6"class="form-control" id="taskDescription" placeholder="building an Amazing API"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" onclick="saveChanges()" data-bs-dismiss="modal" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
+        <div class="container-fluid ">
+            <h1 class="navbar-brand fw-bold">
+                <a href="#"> Tasky </a>
+            </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                        class="fas fa-plus"></i> Add New</button>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <!-- Search bar -->
+        <section class="mt-4 ">
+            <div class="row justify-content-center">
+                <div class="col-md-6 ">
+                    <div class="input-group mb-3 shadow-lg rounded-pill">
+                        <input type="text" class="form-control" placeholder="Search Task" aria-label="Search Task"
+                            aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Cards -->
+        <section>
+            <div class="row task_Container">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card m-lg-1">
+                        <div class="card-header d-flex justify-content-end gap-2">
+                            <button type="button" class="btn btn-outline-success"><i
+                                    class="fas fa-pencil-alt"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i
+                                    class="fas fa-trash-alt"></i></button>
+
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8huvp8b3bXl2v8ac6MSqz0Uk3zqauY2ttIA&usqp=CAU"
+                            class="card-img-top p-2" alt="card img">
+                        <div class="card-body">
+                            <h5 class="card-title">kk</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <span class="badge bg-primary mb-2">Amazing</span></h </div>
+                            <div class="card-footer text-muted ">
+                                <button type="button" class="btn btn-outline-primary float-end rounded-pill">Open
+                                    Task</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+       
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+<!-- Our JavaScript -->
+<script src="index.js"></script>
+
+</body>
+
+</html>
+
+
+
+
