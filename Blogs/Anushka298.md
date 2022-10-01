@@ -1,4 +1,4 @@
-### The Mythbuster’s Guide to Saving Money on Energy Bills
+## The Mythbuster’s Guide to Saving Money on Energy Bills
 ![image](https://user-images.githubusercontent.com/98447366/193321696-5d508056-db9b-4a39-8f63-e5d66a7d5252.png)
 
 
