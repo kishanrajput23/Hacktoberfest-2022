@@ -16,5 +16,6 @@ These are general rules that you should  follow when contributing to an Open Sou
 - Always add comments in your code and explain it at points, if possible add Doctest.
 - Always create a Pull Request from a new branch such as **feature**; do not create a PR from **main**.
 - Write clean code and follow proper coding conventions.
+- After contributing, you should kindly wait for the moderators to merge.
 
 Thank you ❤
