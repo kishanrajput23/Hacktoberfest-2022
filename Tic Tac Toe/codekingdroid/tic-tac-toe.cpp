@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 #define endl "\n"
 
@@ -111,7 +112,7 @@ int checkwin()
 
 void board()
 {
-    system("cls");
+    system("clear");
     cout << "\n\n\tTic Tac Toe\n\n";
 
     cout << "Player 1 (X)  -  Player 2 (O)" << endl << endl;
