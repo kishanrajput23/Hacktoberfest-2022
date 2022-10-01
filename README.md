@@ -1,3 +1,8 @@
+# Please do not contribute in this repository as it's excluded from Hacktoberfest 2022
+
+![image](https://user-images.githubusercontent.com/70385488/193384317-b439dfe2-d313-49f7-9aca-81bd5de699b2.png)
+
+
 #  Hacktoberfest 2022 Is Awesome🔥
 ![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
 
