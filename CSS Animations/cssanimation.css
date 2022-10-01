@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+	#gfg {
+		animation-name: color;
+		animation-duration: 25s;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-family: Times New Roman;
+	}
+	
+	#geeks {
+		font-size: 40px;
+		text-align: center;
+		font-weight: bold;
+		color: #090;
+		padding-bottom: 5px;
+	}
+	
+	#geeks1 {
+		font-size: 17px;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	@keyframes color {
+		0% {
+			background-color: red;
+		}
+		50% {
+			background-color: orange;
+		}
+		100% {
+			background-color: brown;
+		}
+	}
+	</style>
+</head>
+
+<body>
+	<div id="gfg">
+		<div id="geeks">GeeksforGeeks</div>
+		<div id="geeks1">A computer science portal for geeks</div>
+	</div>
+</body>
+
+</html>
