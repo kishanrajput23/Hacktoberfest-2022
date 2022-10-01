@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.game{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.container{
+   width: 70vmin;
+   height: 70vmin;
+   display: flex;
+   gap: 2vmin;
+   flex-wrap: wrap;
+}
+
+.btn{
+    background: #fff;
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    border-radius: 10px;
+    color:  #0f0c29;
+    font-size: 5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#restart{
+    padding:1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#newGame{
+    padding:1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.popup{
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+    gap: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#message{
+    font-size: 5rem;
+}
+
+.popup.hide{
+    display: none;
+}
+
+.score{
+    font-size: 1.5rem;
+    color: aliceblue;
+    position: absolute;
+    right: 100px;
+    bottom: 400px;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 50vmin;
+        height: 50vmin;
+        gap: 2vmin;
+     }
+     
+     .btn{
+         height: 15vmin;
+         width: 15vmin;
+         font-size: 3rem;
+     }
+     
+     #restart{
+         padding:1rem 1.5rem;
+         font-size: 1rem;
+     }
+     .score{
+        font-size: 1rem;
+     }
+     
+}
+
+@media screen and (max-width: 990px) {
+
+    .score{
+        top: 10px;
+        left: 150px;
+        text-align: center;
+    }
+}
