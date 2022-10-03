@@ -16,7 +16,7 @@
 </div>
 
 
-### This repository aims to help code beginners with their first successful pull request and open source contribution. :partying_face:
+### This repository aims to help code beginners with their first successful pull request and open source contribution. :partying_face :
 
 :star: Feel free to use this project to make your first contribution to an open-source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
 
@@ -75,7 +75,7 @@ $ cd Hacktoberfest-2022
 
 Move to this folder for all other commands.
 
-### 3. Set it up :arrow_up:
+### 3. Set it up : arrow_up:
 
 Run the following commands to see that *your local copy* has a reference to *your forked remote repository* in Github :octocat:
 
