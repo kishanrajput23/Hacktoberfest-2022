@@ -1,6 +1,6 @@
 ## Contributing Guidelines
 
- Thank you for considering to contribute to this project.
+ Thank you for considering to contribute to this project .
  
  This document specifies the guidelines that you should follow when contributing to this project.
  
@@ -17,4 +17,4 @@ These are general rules that you should  follow when contributing to an Open Sou
 - Always create a Pull Request from a new branch such as **feature**; do not create a PR from **main**.
 - Write clean code and follow proper coding conventions.
 
-Thank you ❤
+Thank you ❤🙂
