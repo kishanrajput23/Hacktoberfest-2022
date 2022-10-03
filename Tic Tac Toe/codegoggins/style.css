@@ -13,6 +13,8 @@ body{
 
 }
 
+/* Game Container */
+
 .game{
     position: absolute;
     transform: translate(-50%,-50%);
@@ -87,6 +89,8 @@ body{
     display: none;
 }
 
+
+/* Game Ends */
 .score{
     font-size: 1.5rem;
     color: aliceblue;
