@@ -1,61 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gussing Number Game</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rock Paper Scissor Game</title>
+	<link rel="stylesheet" href="style.css">
 </head>
-<body onload="init()">
-    <main>
-        <div id="welcomeScreen">
-            <h2>Guess The Random Number Between 1 to 100</h2>
-            <img src="logo.png" alt="logo">
+<body>
 
-            <section class="eventSection">
-                <p>Select The Level</p>
-                <div class="button-wrapper">
-                    <button onclick="easyMode()">Easy 10 Attempts</button>
-                    <button onclick="hardMode()">Hard 5 Attempts</button>
-                </div>
-             </section>
+	<section class="game">
+		<div class="score">
+			<div class="player-score">
+				<h2>Player</h2>
+				<p>0</p>
+			</div>
+			<div class="computer-score">
+				<h2>Computer</h2>
+				<p>0</p>
+			</div>
+		</div>
 
-        </div>
+		<div class="intro">
+			<h1>Rock Paper and Scissor Game</h1>
+			<a href="#" class="btn">Play Game</a>
+		</div>
 
-        <!-- our game area -->
+		<div class="match fadeOut">
+			<h2 class="winner">Choose an Option</h2>
+			<div class="hands">
+				<img class="player-hand" src="./images/Rock.png" alt="" />
+				<img class="computer-hand" src="./images/Rock.png" alt="" />
+			</div>
 
-        <div class="" id="gameArea">
-            <div id="newGameButton">
-                <button onclick="newGameBegin()">New Game</button>
-            </div>
+		<div class="options">
+			<a href="#" class="btn">Rock</a>
+			<a href="#" class="btn">Paper</a>
+			<a href="#" class="btn">Scissor</a>
+		</div>
+	</div>
+	</section>
+	
 
-        <section>
-            <h3 id="textOutput">Your Guess</h3>
-            <input type="number" id="inputBox" min="1" max="100" placeholder="Enter Your Guess" onchange="compareguess()">
-        </section>
-
-
-        <div class="stats">
-            <section>
-                <div class="info">
-                    <p>Number of previous attempts</p>
-                    <span id="attempts">
-                        0
-                    </span>
-                </div>
-                <div class="info">
-                    <p>Number of previous guesses</p>
-                    <span id="guesses">
-                        0
-                    </span>
-                </div>
-            </section>
-        </div>
-        </div>
-    </main>
-
-
-    <script src="index.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
