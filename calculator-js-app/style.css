@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  background-origin: border-box;
+}
+
+html {
+  background: rgb(14, 214, 210);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 214, 210, 1) 50%,
+    rgba(11, 255, 0, 1) 100%
+  );
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+body {
+  font-family: "Gotham Rounded", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  font-style: normal;
+}
+
+input {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  width: 100%;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-color: whitesmoke;
+  /* width: 40%; */
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.layer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.operator,
+.operand {
+  padding: 20px;
+  background-color: lightcyan;
+  border: 1px solid whitesmoke;
+  font-weight: bold;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, whitesmoke);
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, whitesmoke);
+}
+
+.primary-btn {
+  flex-basis: 50%;
+  flex-grow: 2;
+  padding: 0 2px;
+}
+
+.secondary-btn {
+  flex-basis: 25%;
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    min-width: 70%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  section {
+    min-width: 40%;
+  }
+}
