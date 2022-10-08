@@ -1,0 +1,111 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: "Poppins", sans-serif;
+ }
+ .navbar{
+   display: flex;
+   width: 100%;
+   height: 20%;
+   background-color: black;
+   color: white;
+   border-radius: 20px;
+   padding: 10px;
+   /* font-size: 20px; */
+ }
+ img{
+   height:50px;
+   width: 4%;
+   /* margin-right: 36%; */
+   margin-left: 3%;
+ }
+ .heading{
+   /* width: 100%; */
+    margin-left: 36%;
+    /* text-align: center; */
+}
+ 
+ @media (max-width:460px) {
+   img{
+      height:50px;
+      margin-left: 3%;
+    }
+    .heading{
+      margin-left: 16%;
+    }
+ }
+ .container {
+   background-color: rgb(242 242 242 / 50%);
+   border: 2px solid black;
+   border-radius: 35px;
+   height: 550px;
+   width: 300px;
+   margin: auto;
+   box-shadow: black 5px 5px 15px;
+   margin-top: 3%;
+  
+ }
+ .display {
+   background-image: linear-gradient(to top, #ffd4e2, white);
+   /* background-color: #ffd4e2; */
+   height: 40%;
+   border-top-left-radius: 35px;
+   border-top-right-radius: 35px;
+ }
+ .design {
+   position: relative;
+   top: 5px;
+   width: 25%;
+   background-color: black;
+   height: 4%;
+   margin: auto;
+   border-radius: 10px;
+ }
+ .keys {
+   height: 55%;
+   width: 100%;
+   margin-top: 10%;
+   margin-left: 5%;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-gap: 0.5rem;
+ }
+ 
+ .btn {
+   font-family: "Poppins", sans-serif;
+   font-size: 22px;
+   width: 50%;
+   background-color: white;
+   border-radius: 10px;
+   border: none;
+   box-shadow: 2px 2px 5px;
+ }
+ .btn:hover {
+   background-color: #ffd4e2;
+   scale: 1.2;
+ }
+
+ #equal {
+   width: 150%;
+   background-color: #ffd4e2;
+ }
+ #input {
+   box-sizing: border-box;
+   position: relative;
+   top: 55%;
+   width: 98%;
+   height: 40%;
+   border-radius: 35px;
+   background-image: linear-gradient(to top, #ffd4e2, #fbe9ef);
+   border: none;
+   font-size: 30px;
+   padding-left: 10%;
+ }
+ .foot{
+   color: white;
+   background-color:black;
+   text-align: center;
+   margin-top: 5%;
+   
+
+ }
