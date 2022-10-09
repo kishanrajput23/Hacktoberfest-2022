@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body onload="f1()">
+    <header>
+        <div class="header">
+            <img id="headimg"
+                src="https://images-na.ssl-images-amazon.com/images/G/01/gc/designs/livepreview/amazon_dkblue_noto_email_v2016_us-main._CB468775337_.png"
+                alt="" />
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div id="pic">
+                <img id="pic1" src="pic1.png" alt="img" />
+                <div id="times">00:00:00</div>
+                <div id="hrtdiv">
+                    <img src="heart.png"
+                        alt="" id="hear">
+                    <h5 id="hrtrate">78</h5>
+                </div>
+            </div>
+            <div id="content">
+                <!-- <img id="pic1" src="pic1.png" alt="img"> -->
+                <h2 style="font-size: 240%">FitBit 19 - The Smartest Watch</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dignissimos dolores unde consequatur commodi culpa, velit repellat
+                    nam eius eligendi.
+                </p>
+                <p style="float: LEFT; font-size: 114%; margin-bottom: 3%">
+                    <strong>SELECT COLOR</strong>
+                </p>
+                <div id="boxes">
+                    <div id="blue" onclick="blue()"></div>
+                    <div id="purple" onclick="purple()"></div>
+                    <div id="black" onclick="black()"></div>
+                    <div id="red" onclick="red()"></div>
+                    <div id="pink" onclick="pink()"></div>
+                </div>
+
+                <div class="feature">
+                    <strong>FEATURE <br /><button id="time" onclick="timebtn()">Time</button>
+                        <button id="heart" onclick="hrtbtn()">Heart Rate</button></strong>
+                    <br>
+                    <button id="buy">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+</html>
