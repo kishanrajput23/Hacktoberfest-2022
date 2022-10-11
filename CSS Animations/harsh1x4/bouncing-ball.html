@@ -10,8 +10,13 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%; 
-  background: linear-gradient(45deg, rgba(95,30,190,1) 41%, rgba(60,145,255,1) 100%);
-  animation: bounce 0.5s;
+/*   background: linear-gradient(45deg, rgba(95,30,190,1) 41%, rgba(60,145,255,1) 100%); */
+  
+/*   animation: bounce 0.5s; */
+  
+/*  extend animation time  */
+  animation: bounce 0.7s;
+  
   animation-timing-function: cubic-bezier(.5,0.05,1,.5);
   animation-direction: alternate;
   animation-iteration-count: infinite;
@@ -19,6 +24,20 @@ body {
 @keyframes bounce {
   from { transform: translate3d(0, 0, 0);     }
   to   { transform: translate3d(0, 200px, 0); }
+  
+/*   Change Background color of ball */
+  
+    0% {background-color: red;}
+    10%{background-color:aqua;}
+    20%{background-color: blueviolet;}
+    30%{background-color: wheat;}
+    40%{background-color: violet;}
+    50%{background-color:green;}
+    60%{background-color: teal;}
+    70%{background-color:brown;}
+    80%{background-color:pink;}
+    90% {background-color: red;}
+    100%{background-color: black;}
 }
 </style>
 </head>
