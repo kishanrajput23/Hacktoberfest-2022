@@ -1,0 +1,12 @@
+rowsize: 9 ,columnsize: 12
+no of hurdles :7
+0 7
+0 5
+1 3
+2 6
+7 4
+3 1
+6 2
+5 0
+4 7
+3 0
