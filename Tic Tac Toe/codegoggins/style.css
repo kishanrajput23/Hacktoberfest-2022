@@ -35,6 +35,8 @@ body{
    flex-wrap: wrap;
 }
 
+/* Button Style */
+
 .btn{
     background: #fff;
     height: 22vmin;
@@ -47,6 +49,8 @@ body{
     cursor: pointer;
 }
 
+/* Game Restarts */
+
 #restart{
     padding:1rem 3rem;
     font-size: 1.5rem;
@@ -56,6 +60,8 @@ body{
     cursor: pointer;
 }
 
+/* New Game Starts */
+
 #newGame{
     padding:1rem 3rem;
     font-size: 1.5rem;
@@ -64,6 +70,8 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
+
+/* Pop Up Style */
 
 .popup{
     height:100vh;
