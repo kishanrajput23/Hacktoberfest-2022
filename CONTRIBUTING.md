@@ -1,10 +1,10 @@
 ## Contributing Guidelines
 
- Thank you for considering to contribute to this project.
+ Thank you for considering Contributing to this project.
  
  This document specifies the guidelines that you should follow when contributing to this project.
  
- Please adhere to the guidelines in order for your PR's to get approved.
+ Please adhere to the guidelines for your PR's to get approved.
 
 ### General Rules :
 These are general rules that you should  follow when contributing to an Open Source project :
@@ -14,7 +14,7 @@ These are general rules that you should  follow when contributing to an Open Sou
 - While opening a new issue, make sure you describe the issue clearly.
 - Write proper commit messages and document your PR well.
 - Always add comments in your code and explain it at points, if possible add Doctest.
-- Always create a Pull Request from a new branch such as **feature**; do not create a PR from **main**.
+- Always create a Pull Request from a new branch such as the **feature**; do not create a PR from **main**.
 - Write clean code and follow proper coding conventions.
 
 Thank you ❤
