@@ -37,10 +37,14 @@ if __name__=="__main__":
     xstate=[0,0,0,0,0,0,0,0,0]
     zstate=[0,0,0,0,0,0,0,0,0]
     turn =1  # 1 for x's chance and 0 for O's chance
+    
+    #the program can be optimized by checking for the winner only from the ((2*n)-1)th move, in an nxn board
+    #in this 3x3 board, we can start checking for the winner only from the 5th move
+    movesCount=0;
     print("WELCOME TO TIC TAC TOE!!")
     while(True):
         printBoard(xstate,zstate)
-
+        ++movesCount
         if turn ==1:
             print("X's chance")
             value=int(input("Please enter a value: "))
@@ -50,11 +54,12 @@ if __name__=="__main__":
             value=int(input("Please enter a value: "))
             zstate[value]= 1
         
-
-        winner=checkwin(xstate,zstate)
-        if winner!=-1:
-            print("MATCH OVER!!!!!")
-            break
+        #we check for the winner from the 5th move
+        if (movesCount>=5):
+            winner=checkwin(xstate,zstate)
+            if winner!=-1:
+                print("MATCH OVER!!!!!")
+                break
 
         turn=1-turn
         
