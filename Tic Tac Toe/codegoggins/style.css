@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
+// CSS styles for Body of the HTML Page
 body{
     height: 100vh;
     background: #0f0c29;  /* fallback for old browsers */
@@ -12,6 +12,8 @@ body{
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+/* Game Container */
 
 .game{
     position: absolute;
@@ -24,7 +26,7 @@ body{
     justify-content: center;
     gap: 3rem;
 }
-
+// All Containers 
 .container{
    width: 70vmin;
    height: 70vmin;
@@ -32,7 +34,7 @@ body{
    gap: 2vmin;
    flex-wrap: wrap;
 }
-
+// Button CSS
 .btn{
     background: #fff;
     height: 22vmin;
@@ -87,6 +89,8 @@ body{
     display: none;
 }
 
+
+/* Game Ends */
 .score{
     font-size: 1.5rem;
     color: aliceblue;

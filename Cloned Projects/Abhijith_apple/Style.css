@@ -1,0 +1,589 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+nav {
+    position: fixed;
+    background-color:rgba(0,0,0,0.8);
+    color: lightgray;
+    width: 100%;
+    height: 40px;
+    font-size: 10pt;
+    
+    
+    
+
+}
+ul {
+    width: 100%;
+    
+    margin: 10px;
+    display: flex;
+    margin: auto;
+    padding: 68px 250px;
+    padding-top: 12px;
+
+
+    float: inherit;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    
+    text-align: inherit;
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 8;
+}
+li {
+    
+    list-style: none;
+    margin-left: 20px;
+    padding-left: 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+.condiner{
+    width: 100%;
+    height: 666vh;
+    
+    position: relative;
+    top: 40px;
+    background-color: #fff;
+    
+
+}
+.f-condiner{
+    height: 50px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.first_condiner{
+    
+    font-size: 13px;
+    margin: 150px;
+    align-items: center;
+
+    
+
+}
+a{
+    color:blue;
+}
+.fst-pic-condiner{
+    width: 100%;
+    height: 580px;
+    background-image: url(Images/iphone1.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+}
+.top-fst-pic-comdiner{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#iphone{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+}
+#ohsopro{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+}
+#learnbum{
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+}
+.sec-pic-condiner{
+    width: 100%;
+    height: 580px;
+    background-image: url(Images/hero_iphone_13__f194u1rdooeq_large.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+}
+.top-sec-pic-comdiner{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1;
+}
+#sec-iphone{
+    
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+    color: #fff;
+}
+#sec-ohsopro{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    color: #fec2eb;
+}
+#sec-learnbum{
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+}
+.thr-pic-condiner{
+    width: 100%;
+    height: 580px;
+    background-image: url(Images/mac.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+}
+.top-thr-pic-comdiner{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1;
+}
+#thr-iphone{
+    
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+    color: rgb(3, 0, 0);
+}
+#thr-ohsopro{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    color: #080006;
+}
+#thr-learnbum{
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+}
+.fth-pic-condiner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.fth-rt-section{
+    width: 50%;
+    background-image: url(Images/watch.jpg);
+    
+    height: 580px;
+    background-position: center;
+}
+
+.fth-rgt-sec-pic-comdiner{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1;
+
+}
+#new{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #bf4800;
+    margin-top: 31px;
+}
+#fth-iphone{
+   
+
+
+    font-weight: 600;
+    letter-spacing: -.005em;
+color: rgb(3, 0, 0);
+}
+#serie{
+    letter-spacing: 2px;
+    color: rgb(209, 36, 36);
+}
+#fth-ohsopro{
+    font-size: 18px;
+    line-height: 1.10722;
+    font-weight: 400;
+    color: #080006;
+}
+#fth-learnbum{
+    font-size: 18px;
+    line-height: 1.381;
+    font-weight: 400;
+}
+.fth-lf-section{
+    width: 50%;
+    background-image: url(Images/ipad.jpg);
+    
+    
+    height: 580px;
+    background-position: center;
+}
+
+.fth-lt-sec-pic-comdiner{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1;
+
+}
+#fth-lt-iphone{
+   
+
+    padding-top: 50px;
+    width: 170px;
+    font-size: 1px;
+
+}
+#fth-lt-ohsopro{
+    font-size: 21px;
+    line-height: 1.10722;
+    font-weight: 400;
+    color: #080006;
+}
+#fth-lt-learnbum{
+    font-size: 18px;
+    line-height: 1.381;
+    font-weight: 400;
+}
+.fif-pic-condiner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.fif-rt-section{
+    width: 50%;
+    background-image: url(Images/Airpods.jpg);   
+    height: 580px;
+    background-position: center;
+}
+
+.fif-rgt-sec-pic-comdiner{
+    width: 100%;
+    padding-top: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1;
+
+}
+#fif-iphone{
+   
+
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+
+#fif-ohsopro{
+    font-size: 18px;
+    line-height: 1.10722;
+    font-weight: 400;
+    color: #080006;
+}
+#fif-learnbum{
+    font-size: 18px;
+    line-height: 1.381;
+    font-weight: 400;
+} 
+.fif-lt-section{
+    width: 50%;
+    background-image: url(Images/Homepods.jpg);
+    
+    
+    height: 580px;
+    background-position: center;
+}
+
+.fif-lt-sec-pic-comdiner{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1;
+
+}
+#fif-lt-iphone{
+   
+
+    padding-top: 50px;
+    
+
+    font-size: 39px;
+    line-height: 2.1;
+    font-weight: 550;
+    letter-spacing: -.01em;
+
+}
+#fif-lt-ohsopro{
+    text-align: center;
+    color: #86868b;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+#fif-lt-learnbum{
+    font-size: 18px;
+    line-height: 1.381;
+    font-weight: 400;
+}
+.six-pic-condiner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.six-rt-section{
+    width: 50%;
+    background-image: url(Images/arcade.jpg);
+    
+    height: 580px;
+    background-position: center;
+}
+
+.six-rgt-sec-pic-comdiner{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1;
+}
+#six-iphone{
+   
+
+    font-size: 41px;
+    font-weight: 550;
+    letter-spacing: -.005em;
+    color: rgb(3, 0, 0);
+}
+#six-ohsopro{
+    padding-left: 150px;
+    padding-top: 5px;
+    width: 607px;
+    font-size: 18px;
+    line-height: 1.10722;
+    font-weight: 300;
+    color: #080006;
+    letter-spacing: inherit;
+}
+#six-learnbum{
+    padding-top: 10px;
+    font-size: 17px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: inherit;
+}
+.six-lf-section{
+    width: 50%;
+    background-image: url(Images/Tv.jpg);
+    
+    
+    height: 580px;
+    background-position: center;
+}
+
+.six-lt-sec-pic-comdiner{
+    width: 100%;
+    padding-top: 328px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1;
+
+}
+#six-lt-iphone{
+   
+
+
+    color: white;
+
+    font-size: 39px;
+    line-height: 2.1;
+    font-weight: 550;
+    letter-spacing: -.01em;
+
+}
+#tom{
+    
+    font-size: 24px;
+    font-weight: 540;
+    letter-spacing: 2px;
+    color: white;
+}
+#is{
+    font-size: 20px;
+    padding-top: 2px;
+    color: white;
+    
+}
+#six-lt-ohsopro{
+    text-align: center;
+    color:white;
+    font-size: 57px;
+    line-height: 1.33337;
+    font-weight: 300;
+    letter-spacing: 0.4em;
+    margin-left: 23px;
+
+}
+#six-lt-snow{
+    font-size: 19px;
+    line-height: 1.381;
+    font-weight: 400;
+    color: white;
+}
+.footer{
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.footer-main{
+    width: 1024px;
+    height: 580px;
+    
+}
+.Top-footer-main{
+    height: 90px;
+    width: 1024px;
+    background-color: rgb(239, 243, 241);
+    margin-top: 17px;
+    color: #505053;
+}
+.tf-section{
+    
+    font-size: 13px;
+    letter-spacing: 0.1px;
+
+}
+.ts-section{
+    
+    padding: 10px;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+    
+}
+.mid-footer-main{
+    display: flex;
+    padding-top: 20PX;
+    align-content: center;
+}
+.fst-mid-footer{
+    height: 357px;
+    width: 176px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: inherit;
+    text-align: inherit;
+    color: black;
+
+}
+.header1{
+    padding-top: 20px;
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: inherit;
+    text-align: inherit;
+    color: black;
+
+}
+.cls{
+    padding-top: 7px;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #505053;
+    
+
+    
+}#ul{
+    text-decoration: none;
+    font-size: 13px;
+    color: #505053;
+}
+.bot-main-footer{
+    width: 980px;
+    height: 26px;
+    display: flex;
+    align-content: center;
+}
+.f-bt{
+    width: 270px;
+    font-size: 12px;
+    color: #505053;
+}
+.s-bt{
+    color: #0e0e0f;
+    font-size: 14px;
+    width: 389px;
+    font-weight: 400px;
+}
+.india{
+    width: 28px;
+    color: #505053;
+    font-size: 14px;
+    padding-left: 325px;
+
+
+}
+li a:hover{
+    color:rgb(180, 175, 175);
+}
+#learnbum:hover{
+    text-decoration: underline;
+}
+.cls:hover{
+    text-decoration: underline;
+}
