@@ -1,0 +1,176 @@
+.header {
+    text-align: center;
+    background-color: #232f3e;
+}
+
+#headimg {
+    width: 90px;
+}
+
+#pic {
+    width: 40%;
+    float: left;
+    position: relative;
+}
+
+#content {
+    width: 60%;
+    float: right;
+    position: relative;
+}
+
+#pic1 {
+    width: 85%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+}
+
+section {
+    text-align: -webkit-center;
+    margin-top: 5%;
+}
+
+#times {
+    position: absolute;
+    top: 46%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+    font-size: 161%;
+    visibility: visible;
+}
+
+#boxes {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 10%;
+    place-content: space-around;
+}
+
+#blue {
+    width: 10%;
+    height: 100%;
+    background-color: #565681;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#purple {
+    width: 10%;
+    height: 100%;
+    background-color: #8a5362;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#black {
+    width: 10%;
+    height: 100%;
+    background-color: #23211f;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#red {
+    width: 10%;
+    height: 100%;
+    background-color: #ca3d22;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#pink {
+    width: 10%;
+    height: 100%;
+    background-color: #e9c7be;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.feature {
+    text-align: -webkit-left;
+    font-size: 114%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+#time,
+#heart {
+    margin: 15px;
+    font-size: 13px;
+    width: 105px;
+    height: 25px;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    background: #c0bfbf;
+    cursor: pointer;
+}
+
+#buy {
+    margin: 15px;
+    font-size: 13px;
+    width: 138px;
+    height: 36px;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    background: #ffd000;
+    margin-top: 33px;
+    cursor: pointer;
+}
+
+#hear {
+    left: -28px;
+    top: -51px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    animation: beat 3s linear 0s infinite alternate;
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.25);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    75% {
+        transform: scale(1.25);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#hrtdiv {
+    position: absolute;
+    top: 46%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+    font-size: 200%;
+    visibility: hidden;
+}
+
+#hrtrate {
+    position: absolute;
+    left: -12px;
+    top: -16px;
+}
