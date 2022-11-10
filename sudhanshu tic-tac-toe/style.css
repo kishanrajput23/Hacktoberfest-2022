@@ -39,7 +39,7 @@ body{
 
 #bodydiv{
     border: 4px solid rgb(58, 57, 57);
-    box-shadow: 20px 20px 4vw 1vw rgb(19, 18, 18) ;
+    box-shadow: 20px 20px 4vw 1vw rgb(41 163 190 / 64%);
     display: grid;
     grid-template-columns: 15vw 15vw 15vw;
     grid-template-rows: 15vw 15vw 15vw;
@@ -56,10 +56,10 @@ body{
     height: 15vw;
     width: 15vw;
     border: 2px solid white;
-    background: rgb(27, 26, 26);
+    background: rgb(58 57 57);
     border-radius: 21px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
     color: white;
     justify-content: center;
     align-items: center;
@@ -92,9 +92,23 @@ body{
     width: 13vw;
     height: 11vh;
     background:rgb(245, 92, 118);
-    color: black;
+    color: rgb(254, 254, 254);
     border-radius: 5em;
-    border: 2px solid black;
+    border: 2px solid rgb(245, 92, 118);
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1em ;
+    margin: auto;
+    padding: 5px;
+}
+#btn:hover {
+    width: 13vw;
+    height: 11vh;
+    background:rgb(65, 225, 113);
+    color:  rgb(254, 254, 254);
+    border-radius: 5em;
+    border: 2px solid rgb(65, 225, 113);
     font-family: sans-serif;
     font-weight: bolder;
     text-align: center;
