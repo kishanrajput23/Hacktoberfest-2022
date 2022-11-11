@@ -1,0 +1,105 @@
+.container
+{
+    position: relative;
+    width:95rem;
+    height:30rem;
+    background-image: url("z3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.text1
+{
+    position:absolute;
+    top:8%;
+    bottom:50%;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 5rem;
+    color: white;
+    margin-left: 39rem;
+}
+
+.text2
+{
+    position: absolute;
+    top:27%;
+    color: white;
+    bottom: 50%;
+    margin-left: 23rem;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+.search 
+{
+    display:flex;
+    position: absolute;
+    top:42%;
+    bottom: 50%;
+    background-color: white;
+    margin-left: 19rem;
+    height:2rem;
+    width:55rem;
+    border-radius: 10px;
+    padding-bottom: 16px;
+    padding-left: 2rem;
+}
+
+.search .map .fa-map-marker
+{
+    margin-top: 0.9rem;
+    font-size: large;
+}
+
+.search .search1 
+{
+    margin-left:2rem;
+    font-size: medium;
+    color: gray;
+}
+
+.icon
+{
+    margin-top: 0.9rem;
+    margin-left: 8.5rem;
+}
+.search .search2 input
+{
+    width:30rem;
+    margin-top: 0.9rem;
+    padding-left: 1rem;
+    font-size: medium;
+    outline:none;
+    border:none;
+}
+.parent{
+    margin-left: 25rem;
+    width: 690px;
+    height:240px;
+    display:flex;
+    justify-content: space-around;
+}
+.first
+{
+    width: 330px;
+    text-align: center;
+    margin-top: 25px;
+    border:2px solid lightgray;
+    border-radius: 15px;
+    margin-left: 15px;
+
+}
+
+.first img{
+    width:100%;
+    height: 80%;
+    
+    border-radius: 15px 15px 0 0;
+}
+
+.child3
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding:5px;
+    background-color: white;
+}
