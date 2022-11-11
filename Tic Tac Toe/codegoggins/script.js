@@ -103,12 +103,12 @@ buttons.forEach((move)=>{
          if(Omove){
             Omove = false;
             move.innerHTML ="O";
-            // user canno change this again
+            // user cannot change this again
             move.disabled = true;
          }else{
             Omove = true;
             move.innerHTML ="X";
-            // user canno change this again
+            // user cannot change this again
             move.disabled = true;
          }
         //  Increment Counter for total moves
@@ -119,7 +119,7 @@ buttons.forEach((move)=>{
             playerDraw();
         }
 
-        // Check Win Combination
+        // Check Wining Combination
         checkWin();
     });
 });
