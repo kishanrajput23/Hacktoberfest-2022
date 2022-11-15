@@ -1,0 +1,287 @@
+body {
+    background: #0a0b0a;
+  }
+  .stick {
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: 100px;
+  }
+  .stick div {
+    width: 70px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    border-radius: 500px;
+    border-top: solid 2px rgba(0, 0, 0, 0.2);
+    border-left: solid 3px rgba(255, 255, 255, 0.2);
+    border-bottom: solid 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    box-sizing: border-box;
+    transform-origin: center 90%;
+    display: inline-block;
+    backface-visibility: hidden;
+    margin-left: -35px;
+    transform: rotate(0deg);
+  }
+  .stick div:before {
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-color: #FFFFFF;
+    display: inline-block;
+    border-radius: 8px;
+    bottom: 10px;
+    position: absolute;
+    margin-left: -8px;
+  }
+  .stick div:nth-child(1) {
+    background-color: #815A8F;
+    animation: stick-purple-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+  .stick div:nth-child(2) {
+    background-color: #6730EC;
+    animation: stick-blue-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+  .stick div:nth-child(3) {
+    background-color: #9ED763;
+    animation: stick-green-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+  .stick div:nth-child(4) {
+    background-color: #FBD400;
+    animation: stick-yellow-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+  .stick div:nth-child(5) {
+    background-color: #FF9000;
+    animation: stick-orange-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+  .stick div:nth-child(6) {
+    background-color: #F73F52;
+    animation: stick-red-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+  .stick div:nth-child(7) {
+    background-color: #9013d8;
+    animation: stick-DarkPurple-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+  .stick div:nth-child(8) {
+    background-color: #0e18e1;
+    animation: stick-DarkBlue-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+  .stick div:nth-child(9) {
+    background-color: #f1eded;
+    animation: stick-white-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+
+  .stick div:nth-child(10) {
+    background-color: #3b03f3;
+    animation: stick-white2-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+  .stick div:nth-child(11) {
+    background-color: #0d85e8;
+    animation: stick-white3-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+
+  .stick div:nth-child(12) {
+    background-color: #f70ad7;
+    animation: stick-white4-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+  .stick div:nth-child(13) {
+    background-color: #0af0ba;
+    animation: stick-white5-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+
+  .stick div:nth-child(14) {
+    background-color: #d9ef0b;
+    animation: stick-white6-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+
+
+
+  @keyframes stick-purple-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(-65deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes stick-blue-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(-40deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes stick-green-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(-15deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes stick-yellow-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(15deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes stick-orange-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(40deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes stick-red-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(65deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes stick-DarkPurple-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(-90deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes stick-DarkBlue-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(90deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes stick-white-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(-115deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes stick-white2-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(115deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes stick-white3-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(-140deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes stick-white4-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(140deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes stick-white5-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(-165deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes stick-white6-motion {
+    0% {
+      transform: rotate(0deg);
+    }
+    30%,
+    70% {
+      transform: rotate(165deg);
+    }
+    90%,
+    10% {
+      transform: rotate(0deg);
+    }
+  }
+  
+
+
+
+  
